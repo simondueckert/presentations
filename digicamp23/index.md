@@ -12,7 +12,7 @@
 * **losconCircles & losconChallenge**
    * [Blog zu losconCircles](https://cogneon.de/2023/05/04/concircles-learning-circle-zur-lernos-convention-oder-wie-machen-wir-veranstaltungen-zu-nachhaltigen-lern-events/)
    * [Open Source Introduction to Lego Serious Play](https://seriousplaypro.com/about/open-source/) (Skills Building S. 22, z.B. Turmbau, Ente)
-   * Challenge Frage: "Welcher Bestandteil der Lernumgebung der Zukunft ist Dir/Euch wirklich, wirklich wichtig?" (Harold Jarche: [Work is Learning and Learning is the Work](https://de.wikipedia.org/wiki/Lego_Serious_Play) -> Arbeitsumgebung = Lernumgebung)
+   * Challenge Frage: "Welcher Bestandteil der Lernumgebung der Zukunft ist Dir/Euch wirklich, wirklich wichtig?" (Harold Jarche: [Work is Learning and Learning is the Work](https://de.wikipedia.org/wiki/Lego_Serious_Play) -> Arbeitsumgebung = Lernumgebung, [Präsentation Impulsvortrag](https://simondueckert.github.io/presentations/loscon23/))
    * [loscon23 Whiteboard](https://app.conceptboard.com/board/81c5-fui0-7yn1-8ic4-6obt)
    * losconCircle in Discord (Text- und Audio-Chat)
 * **Umfrage:** Was ist EUCH für Eure Lernumgebung der Zukunft wirklich, wirklich wichtig? -> [MS Forms](https://forms.office.com/e/drh2Cgn5HN) (anonym)
@@ -27,3 +27,4 @@
 # Links
 * Alle Infos: https://www.datev-community.de/t5/DATEVdigicamp/DATEV-DigiCamp-Juli-2023-Alle-Informationen/td-p/361477
 * Programm: https://www.datev-magazin.de/archiv/programm-juli-2023-103681
+* Diese Seite: https://github.com/simondueckert/presentations/blob/master/digicamp23/loscon23session.md
