@@ -27,4 +27,4 @@
 # Links
 * Alle Infos: https://www.datev-community.de/t5/DATEVdigicamp/DATEV-DigiCamp-Juli-2023-Alle-Informationen/td-p/361477
 * Programm: https://www.datev-magazin.de/archiv/programm-juli-2023-103681
-* Diese Seite: https://github.com/simondueckert/presentations/blob/master/digicamp23/loscon23session.md
+* Diese Seite: https://github.com/simondueckert/presentations/blob/master/digicamp23/index.md
