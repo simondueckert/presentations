@@ -4,7 +4,7 @@ Dieses Repo enthält öffentliche Web-Präsentationen von Simon Dückert, die mi
 
 ## Evergreen
 
-- [Mastodon als Lernwerkzeug - Eine Einführung](https://simondueckert.github.io/presentations/mastodon-intro/) (Ablösung der Folien zu Twitter-Session)
+- [Mastodon als Lernwerkzeug - Eine Einführung](https://simondueckert.github.io/presentations/mastodon-intro/) (Ablösung der [Folien zur Twitter-Session](https://www.youtube.com/watch?v=Ey0N1qkITtY))
 
 ## 2024
 
