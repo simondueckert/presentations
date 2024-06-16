@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>saptf24</title>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>index</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="title" content="Test">
+  <meta name="author" content="Simon Dückert">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section data-background-image="https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_1280.jpg">
+  <h3>Einsatz generativer Künstlicher Intelligenz (<a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">GenAI</a>) in der Wissensarbeit</h3>
+  <h4><a href="https://events.sap.com/de/change-training-forum-2024/de/home">saptf24</a>, <a href="https://www.linkedin.com/in/simondueckert/" target="_blank">Simon Dückert</a> (<a href="https://www.cogneon.de" target="_blank">Cogneon</a>)</h4>
+</section>
+
+<section>
+  <h3>Die Wissensgesellschaft</h3>
+  <small><p>Wir befinden uns (immer noch) im Übergang von Industrie- zu Wissensgesellschaft. Eine Wissensgesellschaft ist eine Gesellschaft, in der bestehende Regeln und Normen durch Lernprozesse kontinuierlich infrage gestellt werden (Heidenreich, M.).</p></small>
+  <div style="background-color:rgb(255, 255, 255);">
+  <img src="https://github.com/cogneon/lernos-for-you/blob/master/de/src/images/halbwertzeit-des-wissens.png?raw=true" width="70%" />
+  </div>
+</section>
+
+<section >
+  <h3>Produktivität von Wissensarbeit <a href="https://amzn.to/3KH9A7T" target="_blank">nach Drucker</a></h3>
+  <small>
+  <ol>
+    <li>Die Produktivität von Wissensarbeit erfordert, dass wir uns die Frage stellen: "Was ist die Aufgabe?"</li>
+    <li class="fragment">Sie verlangt, dass wir den Wissensarbeiter:innen selbst die Verantwortung für ihre Produktivität übertragen. Sie müssen sich selbst managen. Dafür benötigen sie Autonomie.</li>
+    <li class="fragment">Kontinuierliche Innovation muss Teil der Arbeit, der Aufgabe und der Verantwortung von Wissensarbeiter:innen sein.</li>
+    <li class="fragment">Wissensarbeit erfordert kontinuierliches Lernen auf Seiten der Wissensarbeiter:innen, aber auch kontinuierliche Weitergabe von Wissen.</li>
+    <li class="fragment">Die Produktivität des Wissensarbeiters ist nicht - zumindest nicht in erster Linie - eine Frage der Quantität des Outputs. Die Qualität ist mindestens ebenso wichtig.</li>
+    <li class="fragment">Schließlich erfordert die Produktivität von Wissensarbeiter:innen, dass sie als "Aktivposten" und nicht als "Kostenfaktor" betrachtet und behandelt werden. Sie setzt voraus, dass die Wissensarbeiter:innen für die Organisation arbeiten wollen, lieber als für jede anderen Option.</li>
+  </ol>
+  </small>
+</section>
+
+<section>
+  <h3>Gestaltung von Wissensarbeit mit KI</h3>
+  <img src="./img/gestaltung-von-wissensarbeit.png" />
+  <small><p>(Mosaik der Arbeitsgestaltung nach Jäger, eigene Darstellung)</p></small>
+</section>
+
+<section data-background-image="https://cdn.pixabay.com/photo/2020/05/31/19/38/job-5243951_1280.jpg">
+  <h3>BIBB: Tätigkeiten in <a href="https://www.bibb.de/dienst/publikationen/de/6176">wissensintensiven Berufen</a></h3>
+  <ol>
+    <li>Forschen und Entwickeln</li>
+    <li>Recherchieren und Dokumentieren</li>
+    <li>Ausbilden und Unterrichten</li>
+    <li>Informationen sammeln</li>
+    <li>Beraten und Informieren</li>
+    <li>Organisieren fremder Arbeitsprozesse</li>
+  </ol>
+</section>
+
+<section>
+  <h3>Bei welchen Aufgaben solltest Du anfangen?</h3>
+  <small><p>Laut HBR-Artikel <a href="https://hbr.org/2023/09/where-should-your-company-start-with-genai" target="_blank">Where Should Your Company Start with GenAI?</a> sind von KI besonders Aufgaben betroffen, die mit Text, Bildern, Zahlen und Multimedia zu tun haben und deren Grad der Digitalisierung hoch ist.</p></small>
+  <div style="background-color:rgb(255, 255, 255);">
+  <img src="https://hbr.org/resources/images/article_assets/2023/08/W230905_BAIER_WINS_WORK_AI_360.png" width="25%" />
+  </div>
+</section>
+
+<section>
+  <h3>KI-Tools & der Digitale Arbeitsplatz</h3>
+  <a href="https://cogneon.github.io/lernos-for-you/de/1-4-lernOS-Workplace/"><img src="./img/lernOS-Workplace.png" width="70%" /></a>
+</section>
+
+<section>
+  <h3>KI-Tools & der Digitale Arbeitsplatz</h3>
+  <a href="https://cogneon.github.io/lernos-for-you/de/1-4-lernOS-Workplace/"><img src="./img/lernOS-Workplace-ai.png" width="70%" /></a>
+</section>
+
+<section>
+  <a href="https://briansolis.com/2023/12/introducing-the-genai-prism-infographic-a-framework-for-colalborating-with-generative-ai/" target="_blank"><img src="https://briansolis.com/wp-content/uploads/2023/12/53404929226_98b2a28e3d_k.jpg" width="75%" /></a>
+</section>
+
+<section>
+  <h3>Die Praxis ist übersichtlicher (Umfrage <a href="https://loscon.lernos.org/de/kimooc24/" target="_blank">#kimooc24</a>)</h3>
+  <a href="https://community.cogneon.de/t/lernos-ki-mooc-links-aus-dem-chat/4008" target="_blank"><img src="https://europe1.discourse-cdn.com/standard21/uploads/cogneon1/optimized/2X/6/6676745be6e52508977a287b926fc9704bd36fbf_2_1380x944.png" width="75%" /></a>
+</section>
+
+<section>
+  <h3>Was machen Menschen wirklich, wirklich mit KI?</h3>
+  <img src="https://hbr.org/resources/images/article_assets/2024/04/W240311_SANDERS_AI_USES_2.2_610-1900x3893.png" width="20%" style="float: left">
+  <small>
+  <ol>
+    <li>Technical Assistance & Troubleshooting (23%)</li>
+    <li>Content Creation & Editing (22%)</li>
+    <li>Personal & Professional Support (17%)</li>
+    <li>Learning & Education (15%)</li>
+    <li>Creativity & Recreation (13%)</li>
+    <li>Research, Analysis & Decision Making (10%)</li>
+  </ol>
+  </small>
+</section>
+
+<section>
+  <div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alfsaf9mxjdvy8k4z6uyqe1eiwkey31n/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+</section>
+
+<section>
+  <h3>2 Tipps für Eure KI-Lernreise</h3>
+  <table border="1">
+    <tr>
+        <td width="50%">
+          <p><a href="https://the-decoder.de/der-prompt-report-ist-ein-umfassender-prompting-ueberblick-mit-kuriosen-erkenntnissen" target="_blank">Der Prompt-Report</a></p>
+          <img src="https://the-decoder.de/wp-content/uploads/2024/06/prompting_techniques_overview.png.webp" width="75%">
+        </td>
+        <td widt="50%">
+          <p><a href="https://ai.lernos.org" target="_blank">lernOS KI Leitfaden</a></p>
+          <img src="./img/lernos-ai-guide-cover.png" width="75%">
+        </td>
+    </tr>
+  </table>
+</section>
+
+<section data-background-image="https://cdn.pixabay.com/photo/2017/11/28/18/52/bee-2984342_1280.jpg">
+  <h1>KEEP CALM &amp;<br /> LEARN ON</h1>
+</section>
+
+</div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
